@@ -1,8 +1,9 @@
 # R_D_Engineering
 
-Markup: 1. Explain the difference between a stack and a queue. Provide real life examples of
+         1. Explain the difference between a stack and a queue. Provide real life examples of
 real-life scenarios where each of them are used appropriately.
         Stacks are based on the LIFO principle and queues are based on the FIFO principle. LIFO means "last in, first out", the element inserted at the last, is the first element to come out of the list. For exemple, when you're stacking plates one on top of the other, you usually take the top plate first when you need one. The last plate you placed on the stack is the first one to be removed. FIFO means "first in, first out", the element inserted at the first, is the first element to come out of the list. For instance, supermarket checkout queue is  based on this principle. The first customer to join the queue is the first one served by the cashier. As new customers join the queue, they line up behind the existing ones.
+        
         2. What is the difference between an array and a linked list? Provide advantages and
 disadvantages of each data structure.
         The primary distinction between arrays and linked lists lies in their underlying structures. Arrays are indexed-based data structures, where each element is associated with an index position. In contrast, linked lists rely on references, where each node contains the data and references to both the previous and next elements in the sequence. Arrays advantages are fast random access, memory efficiency, better cache locality and the disadvantages are fixed size, costly insertions and deletions, and inflexible resize. 
